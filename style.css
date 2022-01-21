@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+table {
+  border-collapse: collapse;
+  border: 2px #ffc107;
+  font-family: lato;
+  width: 600px;
+  color: white;
+  text-align: left;
+}
+th {
+  /* background-color: #ffc107; */
+  padding: 15px;
+  border: 2px solid white;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+td {
+  padding: 15px;
+  /* background-color: #382c6e; */
+  border: 2px solid white;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f37ecf;
+}
+tr:nth-child(odd) {
+  background-color: #af5593;
+}
+th {
+     background-color: #860070;
+ }
